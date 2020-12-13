@@ -1,6 +1,6 @@
 var i,j,k,x;
 a=document.getElementsByClassName("kix-page-column");
-var out='';
+var out='<h1>'+document.getElementsByClassName("kix-page-column")[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerText+'</h1>';
 for(j=0;j<a.length;j++)
 {
     b=document.getElementsByClassName("kix-page-column")[j].childNodes[0].childNodes[0].childNodes[0].childNodes;
