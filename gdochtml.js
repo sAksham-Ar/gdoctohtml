@@ -29,7 +29,7 @@ for(j=0;j<a.length;j++)
       }
       if(b[i].getElementsByTagName("image").length!=0)
       {
-        out+='<br><img src="'+b[i].getElementsByTagName("image")[0].attributes.href.value+'"></img><br>'
+        out+='<br><img src="'+b[i].getElementsByTagName("image")[0].href.baseVal+'"></img><br>'
       }
       if(b[i].innerText.trim().length!=1)
       {
